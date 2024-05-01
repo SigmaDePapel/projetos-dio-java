@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: PGT1.Escolina_Burro.EscolinaBurroApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.913 s -- in PGT1.Escolina_Burro.EscolinaBurroApplicationTests
