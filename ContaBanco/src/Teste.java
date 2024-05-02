@@ -7,19 +7,19 @@ public class Teste{
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.printf("Insira o número da conta: ");
+        System.out.print("Insira o número da conta: ");
             int numero = scanner.nextInt();
 
         scanner.nextLine(); //limpeza do buffer
 
-        System.out.printf("Insira a agência: ");
+        System.out.print("Insira a agência: ");
             String agencia = scanner.nextLine();
 
-        System.out.printf("Insira seu nome: ");
+        System.out.print("Insira seu nome: ");
             String nomeCliente = scanner.nextLine();
 
 
-        System.out.printf("Insira o saldo: ");
+        System.out.print("Insira o saldo: ");
             float saldo=scanner.nextFloat();
         scanner.close();
 
