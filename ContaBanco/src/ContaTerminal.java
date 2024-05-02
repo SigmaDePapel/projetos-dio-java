@@ -8,22 +8,20 @@ public class ContaTerminal{
 
 
       System.out.printf("Insira seu nome: ");
-        String NomeCliente = scanner.nextLine();
+        String nomeCliente = scanner.nextLine();
 
       System.out.printf("Insira a agência: ");
-        String Agencia = scanner.nextLine();
+        String agencia = scanner.nextLine();
 
       System.out.printf("Insira o número da conta: ");
-        int Numero = scanner.nextInt();
+        int numero = scanner.nextInt();
 
       System.out.printf("Insira o saldo: ");
-        float Saldo=scanner.nextFloat();
+        float saldo = scanner.nextFloat();
 
       scanner.close();
 
 
-      System.out.printf("\"Olá " + NomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + Agencia + ", conta " + Numero + " e seu saldo " + Saldo + " já está disponível para saque\".");
-
-
+      System.out.printf("\"Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque\".");
     }
 }
